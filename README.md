@@ -33,7 +33,7 @@ Domain Metadata Fetcher is a Discord bot that retrieves and displays detailed me
 1. Clone the repository
 
 ```bash id="p2l8zn"
-git clone https://github.com/your-username/domain-metadata-bot.git
+git clone https://github.com/abhinavpingle06/domain-metadata-bot.git
 cd domain-metadata-bot
 ```
 
@@ -41,8 +41,6 @@ cd domain-metadata-bot
 
 ```bash id="a7g4pt"
 npm install
-# or
-pip install -r requirements.txt
 ```
 
 3. Configure environment variables
@@ -60,15 +58,13 @@ API_KEY=your_api_key_here
 Start the bot:
 
 ```bash id="m1z8ld"
-npm start
-# or
-python bot.py
+node index.js
 ```
 
 ### 💬 Example Commands
 
 ```bash id="u3s6kp"
-!domain example.com
+/urlfetcher [URL]
 ```
 
 ### 📊 Sample Output
